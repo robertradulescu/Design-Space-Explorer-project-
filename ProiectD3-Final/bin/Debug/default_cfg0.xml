@@ -1,0 +1,22 @@
+<psatsim>
+	<config name="Default">
+
+		<general
+			superscalar="4" rename="16" reorder="20"
+			rsb_architecture="distributed" rs_per_rsb="2"
+			speculative="true" speculation_accuracy="0.584547838826919"
+			separate_dispatch="true" seed="0"
+			trace="epic.tra" output="output.xml"
+			vdd="2.2" frequency="891" />
+		
+		<execution architecture="standard" integer="2" floating="2" branch="1" memory="1" />
+	
+		
+		<memory architecture="l2">
+			<l1_code hitrate="0.980356868165711" latency="1" />
+			<l1_data hitrate="0.928362222834659" latency="1" />
+			<l2 hitrate="0.990" latency="3" />
+			<system latency="27" />
+		</memory>
+	</config>
+</psatsim>

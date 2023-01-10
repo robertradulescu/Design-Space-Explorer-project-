@@ -1,0 +1,11 @@
+C:\Users\RobertValentin\source\repos\ProiectD3-Final\ProiectD3-Final\bin\Debug\ProiectD3-Final.exe.config
+C:\Users\RobertValentin\source\repos\ProiectD3-Final\ProiectD3-Final\bin\Debug\ProiectD3-Final.exe
+C:\Users\RobertValentin\source\repos\ProiectD3-Final\ProiectD3-Final\bin\Debug\ProiectD3-Final.pdb
+C:\Users\RobertValentin\source\repos\ProiectD3-Final\ProiectD3-Final\obj\Debug\ProiectD3-Final.csproj.AssemblyReference.cache
+C:\Users\RobertValentin\source\repos\ProiectD3-Final\ProiectD3-Final\obj\Debug\ProiectD3-Final.csproj.SuggestedBindingRedirects.cache
+C:\Users\RobertValentin\source\repos\ProiectD3-Final\ProiectD3-Final\obj\Debug\ProiectD3_Final.Form1.resources
+C:\Users\RobertValentin\source\repos\ProiectD3-Final\ProiectD3-Final\obj\Debug\ProiectD3_Final.Properties.Resources.resources
+C:\Users\RobertValentin\source\repos\ProiectD3-Final\ProiectD3-Final\obj\Debug\ProiectD3-Final.csproj.GenerateResource.cache
+C:\Users\RobertValentin\source\repos\ProiectD3-Final\ProiectD3-Final\obj\Debug\ProiectD3-Final.csproj.CoreCompileInputs.cache
+C:\Users\RobertValentin\source\repos\ProiectD3-Final\ProiectD3-Final\obj\Debug\ProiectD3-Final.exe
+C:\Users\RobertValentin\source\repos\ProiectD3-Final\ProiectD3-Final\obj\Debug\ProiectD3-Final.pdb

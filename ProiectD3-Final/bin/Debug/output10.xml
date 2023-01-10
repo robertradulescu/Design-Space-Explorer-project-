@@ -1,0 +1,242 @@
+<!-- PSATSim v2.1 by Clint W. Smullen, IV
+Running configuration file default_cfg10.xml with 1 variations -->
+<psatsim_results>
+<variation
+	configuration="Default" variation="1"
+	started="10 January 2023, 14:06:41" runtime="0.613">
+	<psatsim>
+		<config name="Default" number="1">
+			<general
+				superscalar="4" rename="16" reorder="20"
+				rsb_architecture="distributed" rs_per_rsb="2"
+				speculative="true" speculation_accuracy="0.694"
+				separate_dispatch="true" seed="1673352401"
+				trace="epic.tra" output="output.xml"
+				vdd="2.2" freq="443" />
+			<execution architecture="standard"
+				integer="2" floating="2" branch="1" memory="1" />
+			<memory architecture="l2">
+				<system latency="21" />
+				<l1_code hitrate="0.928" latency="1" />
+				<l1_data hitrate="0.945" latency="1" />
+				<l2 hitrate="0.990" latency="3" />
+			</memory>
+		</config>
+	</psatsim>
+	<general
+		cycles="75238"
+		instructions="104619"
+		fetches="134598"
+		ipc="1.390507"
+		energy="2.23654"
+		power="13.1687">
+		<regfile
+			total="249981"
+			utilization_avg="3.32254"
+			capacitance="0.470644"
+			activity="22517.9"
+			energy="0.0512938"
+			power="0.302017"
+			power_percent="2.29345" />
+		<resultbus
+			total="107127"
+			utilization_avg="1.42384"
+			capacitance="0.904505"
+			activity="23592.8"
+			energy="0.103285"
+			power="0.60814"
+			power_percent="4.61807" />
+		<clockbus
+			capacitance="1.58642"
+			activity="75238"
+			energy="0.577699"
+			power="3.40148"
+			power_percent="25.8301" />
+	</general>
+	<memory>
+		<system
+			latency="1"
+			reads="111" />
+		<l2
+			hit_chance="99.00"
+			latency="3"
+			reads="10882"
+			misses="111"
+			miss_rate="1.02"
+			capacitance="2.592"
+			activity="17217.7"
+			energy="0.216001"
+			power="1.27181"
+			power_percent="9.65783" />
+		<l1_code
+			hit_chance="92.77"
+			latency="1"
+			reads="134599"
+			misses="9827"
+			miss_rate="7.30"
+			capacitance="0.192"
+			activity="47753.8"
+			energy="0.0443767"
+			power="0.261289"
+			power_percent="1.98417" />
+		<l1_data
+			hit_chance="94.49"
+			latency="1"
+			reads="19663"
+			misses="1055"
+			miss_rate="5.37"
+			capacitance="0.192"
+			activity="16372.2"
+			energy="0.0152143"
+			power="0.0895816"
+			power_percent="0.680262" />
+	</memory>
+
+	<fetch
+		total="151404"
+		utilization_avg="2.01233"
+		capacitance="0"
+		activity="41589.7"
+		energy="0"
+		power="0"
+		power_percent="0" />
+	<decode
+		total="171354"
+		utilization_avg="2.27749"
+		capacitance="0.00267162"
+		activity="46078.4"
+		energy="0.000595825"
+		power="0.00350821"
+		power_percent="0.0266405" />
+	<dispatch
+		total="183984"
+		utilization_avg="2.44536"
+		capacitance="0.00226466"
+		activity="48920.2"
+		energy="0.000536213"
+		power="0.00315721"
+		power_percent="0.0239751" />
+	<rename
+		total="806648"
+		utilization_avg="10.7213"
+		capacitance="0.0508497"
+		activity="75238"
+		energy="0.018517"
+		power="0.109028"
+		power_percent="0.827933" />
+	<rsb
+		total="371599"
+		number="6"
+		cycles_utilization_avg="61933.2"
+		cycles_utilization_stddev="37586.2"
+		utilization_avg="4.93898"
+		utilization_stddev="4.53624"
+		energy="0.00153532"
+		power="0.00903992"
+		power_percent="0.0686471" />
+	<exec
+		total="167363"
+		number="6"
+		cycles_utilization_avg="27893.8"
+		cycles_utilization_stddev="12300.3"
+		utilization_avg="2.22445"
+		utilization_stddev="2.0372"
+		energy="1.24327"
+		power="7.32037"
+		power_percent="55.5892" />
+	<reorder
+		total="913494"
+		utilization_avg="12.1414"
+		utilization_max="20"
+		energy="0.326206"
+		power="75238"
+		power_percent="0.118788" />
+	<commit
+		total="104619"
+		utilization_avg="1.39051"
+		energy="0"
+		power="31063.1"
+		power_percent="0" />
+	<core>
+		<rs
+			utilization="48589"
+			capacitance="0.00158965"
+			activity="37619"
+			energy="0.000289436"
+			power="0.0017042"
+			power_percent="0.0129413">
+			<eu name="Integer"
+				utilization="33573"
+				energy="0.000115237"
+				power="0.678516"
+				power_percent="0.00515249">
+		</rs>
+		<rs
+			utilization="23423"
+			capacitance="0.00158965"
+			activity="37619"
+			energy="0.000289436"
+			power="0.0017042"
+			power_percent="0.0129413">
+			<eu name="Integer"
+				utilization="15167"
+				energy="5.73243e-005"
+				power="0.337525"
+				power_percent="0.00256308">
+		</rs>
+		<rs
+			utilization="111298"
+			capacitance="0.00158965"
+			activity="37619"
+			energy="0.000289436"
+			power="0.0017042"
+			power_percent="0.0129413">
+			<eu name="Floating"
+				utilization="42531"
+				energy="0.000676445"
+				power="3.98289"
+				power_percent="0.0302452">
+		</rs>
+		<rs
+			utilization="100350"
+			capacitance="0.00158965"
+			activity="37619"
+			energy="0.000289436"
+			power="0.0017042"
+			power_percent="0.0129413">
+			<eu name="Floating"
+				utilization="34991"
+				energy="0.000394267"
+				power="2.32144"
+				power_percent="0.0176284">
+		</rs>
+		<rs
+			utilization="23422"
+			capacitance="0.00103685"
+			activity="37619"
+			energy="0.000188786"
+			power="0.00111157"
+			power_percent="0.00844098">
+			<eu name="Branch"
+				utilization="10809"
+				energy="0"
+				power="0"
+				power_percent="0">
+		</rs>
+		<rs
+			utilization="64517"
+			capacitance="0.00103685"
+			activity="37619"
+			energy="0.000188786"
+			power="0.00111157"
+			power_percent="0.00844098">
+			<eu name="Memory"
+				utilization="30292"
+				energy="0"
+				power="0"
+				power_percent="0">
+		</rs>
+	</core>
+</variation>
+
+</psatsim_results>
